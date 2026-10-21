@@ -1,0 +1,43 @@
+name: Generate pastel snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+# Deny everything by default; the job opts in to only what it needs.
+permissions: {}
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Generate snake SVGs
+        # Pinned to a commit SHA so a moved tag can't swap in different code.
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-pastel.svg?color_snake=#B388EB&color_dots=#FFF0F6,#FFD6E8,#FFADD2,#F78FB3,#E75C9A
+            dist/snake-pastel-dark.svg?palette=github-dark&color_snake=#E8C5FF&color_dots=#161B22,#4A2340,#7A3463,#C2558F,#FF8FC7
+
+      - name: Push to output branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -qm "Update contribution snake"
+          git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
