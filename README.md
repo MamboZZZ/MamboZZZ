@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/MamboZZZ">
-    <img src="https://readme-typing-svg.demolab.com?font=Fredoka&weight=600&size=22&duration=3000&pause=1000&color=E75C9A&center=true&vCenter=true&width=600&lines=Waku+waku!+Welcome+to+my+profile+%E2%9C%A8;Full-Stack+%C2%B7+Cloud%2FDevOps+%C2%B7+Applied+AI%2FML;Go+backends+%2B+LLM+fine-tuning+%F0%9F%A5%9C;Hackathon+enjoyer+%E2%80%94+1st+place+%40+ITMX+%F0%9F%8F%86" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fredoka&weight=600&size=22&duration=3000&pause=1000&color=E75C9A&center=true&vCenter=true&width=600&lines=Waku+waku!+Welcome+to+my+profile+%E2%9C%A8;Full-Stack+%C2%B7+Applied+AI+%C2%B7+Game+%26+XR;Go+backends+%2B+GPU-served+ML+%F0%9F%A5%9C;Hackathon+enjoyer+%E2%80%94+1st+place+%40+ITMX+%F0%9F%8F%86" alt="Typing intro" />
   </a>
 </p>
 
@@ -24,10 +24,10 @@
 
 <img src="https://media.giphy.com/media/wcFkRXdMmDrRi1Vo08/giphy.gif" alt="Anya cheering" width="170" align="right" />
 
-I build production-grade web applications, optimize high-concurrency backends, and fine-tune multimodal/LLM systems. Winner of several national and top-3 hackathons across fintech, retail, and computer vision.
+I build full-stack web systems in Go and React, ship ML pipelines from training to GPU-served inference, and make real-time interactive experiences in Roblox and, currently, Unity for Meta Quest 3S. Winner of ITMX Hack to the Max S2 and SuperAI Engineer S5 (Southern Region), plus 5 top-3 hackathon finishes in 2025. Seeking software engineering internship and new-grad roles.
 
-- 🎓 B.Sc. Computer Science (2023 – present)
-- 💼 AI Developer Intern, 2025
+- 🎓 B.Sc. Computer Science (2023 – present, expected 2027)
+- 💼 AI Developer Intern, 2025 — multimodal meeting-to-video-digest PoC (speech-to-text → LLM → text-to-video)
 - 🏅 SuperAI Engineer Season 5 — Southern Region Winner, Level 3 Bronze Medalist
 - 💬 Thai (native) · English (professional working proficiency)
 
@@ -38,7 +38,7 @@ I build production-grade web applications, optimize high-concurrency backends, a
 <table align="center">
   <tr>
     <td align="center"><b>💻 Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=go,py,ts,js,cpp,java,lua&theme=light" alt="Languages" /></td>
+    <td><img src="https://skillicons.dev/icons?i=go,py,ts,js,cpp,cs,java,lua&theme=light" alt="Languages" /></td>
   </tr>
   <tr>
     <td align="center"><b>🌐 Web</b></td>
@@ -47,6 +47,10 @@ I build production-grade web applications, optimize high-concurrency backends, a
   <tr>
     <td align="center"><b>🧠 AI / ML</b></td>
     <td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=light" alt="AI / ML" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🎮 Game & XR</b></td>
+    <td><img src="https://skillicons.dev/icons?i=unity,cs,cpp&theme=light" alt="Game & XR" /></td>
   </tr>
   <tr>
     <td align="center"><b>☁️ Cloud & DevOps</b></td>
@@ -58,10 +62,12 @@ I build production-grade web applications, optimize high-concurrency backends, a
   <summary>🥜 <b>Full skill list</b> (click to expand)</summary>
   <br />
 
-- **Languages:** Go, Python, TypeScript, JavaScript, C++, Java, SQL, Luau
-- **Full-Stack & Web:** React 18, Vite, Tailwind CSS, shadcn/ui, Zustand, TanStack Query, React Hook Form, Zod, GoFiber, GORM, REST APIs, Clean Architecture
-- **AI / ML:** PyTorch, TensorFlow, Hugging Face Transformers, vLLM, LoRA, OpenCV, scikit-learn, YOLOv8/11/12, Time Series (LSTM, TFT, Chronos, XGBoost)
+- **Languages:** Go, Python, TypeScript, JavaScript, C++, C#, Java, SQL, Luau
+- **Backend & Web:** GoFiber, GORM, REST APIs, JWT/OAuth2, React, Vite, Tailwind CSS, shadcn/ui, Zustand, TanStack Query, Zod
+- **AI / ML:** PyTorch, TensorFlow, Hugging Face Transformers, vLLM, LoRA, OpenCV, scikit-learn, YOLO, Whisper, Time Series (LSTM, TFT, Chronos, XGBoost)
+- **Game, Graphics & XR:** Unity (C#), Meta XR SDK, OpenXR, Meta Quest 3S, Roblox Studio (Luau), CUDA
 - **Cloud & DevOps:** Docker, Kubernetes, Kustomize, GitHub Actions (CI/CD), Linux, Google Cloud, Huawei Cloud, PostgreSQL, MySQL
+- **Practices:** Clean Architecture, Agile/Scrum, Git, Automated Testing
 
 </details>
 
@@ -71,21 +77,23 @@ I build production-grade web applications, optimize high-concurrency backends, a
 
 | Project | Stack | Highlights |
 |---|---|---|
-| 🏫 **Nisit Deeden** — University honors platform (2026) | Go 1.25, GoFiber, React 18, PostgreSQL, Kubernetes | Unified portal for 5 university campuses; 8-stage approval workflow with JWT + OAuth2 and an immutable audit trail; CI/CD with GitHub Actions |
-| 🎮 **Ultimate Quiz Simulator** — Roblox game (2026) | Luau | Hybrid obstacle-course and trivia game with client-server replication and match/round state machines |
-| 🪐 **N-Body Gravitational Simulation** (2026) | C++, CUDA | Parallel Barnes-Hut (O(N log N)) with custom CUDA kernels, shared-memory tiling, and coalesced access |
-| 🤟 **Real-Time Thai Sign Language Recognition** (2026) | Python, OpenCV, PyTorch | End-to-end gesture-to-text pipeline, 30+ FPS with quantization and frame skipping |
-| 🎙️ **Meeting Transcription & Optimization** (2025) | PyTorch, Whisper, vLLM | Fine-tuned Pathumma Whisper v3 for Thai meetings; 4-bit LLMs on 4x A100 cut batch processing from 66 h to 2 h |
+| 🏫 **Nisit Deeden** — University honors platform (2026) | Go 1.25, GoFiber, React 18, TypeScript, PostgreSQL, Kubernetes | Unified portal for 5 university campuses replacing a paper process; 8-stage approval engine with JWT + OAuth2 and an immutable audit trail; Clean Architecture; CI/CD with GitHub Actions, Docker, Kustomize |
+| 🥽 **Mixed-Reality Prototype for Meta Quest 3S** — in progress (2026) | Unity, C#, Meta XR SDK, OpenXR | Standalone VR/MR app: hand/controller interaction, passthrough, targeting a stable 72+ FPS on-device |
+| 🎮 **Ultimate Quiz Simulator** — Roblox game (2026) | Luau | Multiplayer obstacle-course + real-time trivia; low-latency replication, physics collisions, match queues, rounds and leaderboards |
+| 🪐 **N-Body Gravitational Simulation** (2026) | C++, CUDA | Barnes-Hut (O(N log N)) with custom CUDA kernels, shared-memory tiling, coalesced access and careful thread sync |
+| 🤟 **Real-Time Thai Sign Language Recognition** (2026) | Python, OpenCV, PyTorch | End-to-end live-camera gesture-to-text pipeline; stable 30+ FPS via quantization and frame skipping |
+| 🎙️ **Meeting Transcription & Summarization** (2025) | PyTorch, Whisper, vLLM | Fine-tuned Pathumma Whisper v3 (26 epochs) on Thai meetings; 4-bit LLMs via vLLM on 4x A100 cut batch processing from 66 h to 2 h (33× faster) |
 
 ## ⭐ Stella Stars
 
 <img src="https://media.giphy.com/media/FWAcpJsFT9mvrv0e7a/giphy.gif" alt="Anya: Heh" width="150" align="right" />
 
 - 🥇 **1st Place** — Hack to the Max Season 2 (ITMX), 2025
-- 🥇 **Southern Region Winner** — SuperAI Engineer Season 5, 2025
+- 🥇 **Southern Region Winner** — SuperAI Engineer Season 5, 2025: top overall score across Finance, IoT, NLP, Vision, and Security tracks (Level 3 Bronze Medal)
 - 🥈 **National 1st Runner-Up** — 4th Kibo Robot Programming Challenge, 2023
-- 🥈 1st Runner-Up — Demand Forecasting Hackathon (employer-hosted) (Best Performance Team), 2025
+- 🥈 1st Runner-Up & Best Performance — Demand Forecasting Hackathon (employer-hosted), 2025
 - 🥈 1st Runner-Up — Thai LLM Safety Red Teaming Challenge, 2025
+- 🏅 SuperAI S5 individual rankings: 1st / 218 Fast Radio Burst Signal Detection · 4th / 124 FRB Detection Pipeline · 6th / 129 Meteorological Time Series Forecasting
 - 🥉 2nd Runner-Up — CP Axtra Retail Sales & Demand Forecasting, SCBX Audio Understanding, and CU Liver Fibrosis Prediction hackathons, 2025
 
 <br clear="right" />
